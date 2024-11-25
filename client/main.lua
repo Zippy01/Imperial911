@@ -1,9 +1,8 @@
 local commId = GetConvar("imperial_community_id", "")
 
 if not commId or commId == "" then
-    error("Could not find 'imperial_community_id' convar.") 
+    error("Could not find 'imperial_community_id' convar. Please ensure it is set in your server configuration file.")
 end
-return
 
 print("ImperialCAD Community ID Found")
 
