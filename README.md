@@ -32,7 +32,7 @@ Follow these steps to install the **Imperial911** script:
 2. **Add to Your Server Resources**  
    Place the `Imperial911` folder into your server's resources directory.
 
-3. **Community ID Configuration**  
+3. **Community Configuration**  
    The script requires a `community ID` and `API Secret Key` from *Imperial CAD*. If not already set, follow these instructions:
    - Locate your community ID in *Admin Panel > Customization > Community ID*.
    - Add the following line to your `server.cfg` file:
