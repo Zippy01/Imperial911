@@ -33,13 +33,14 @@ Follow these steps to install the **Imperial911** script:
    Place the `Imperial911` folder into your server's resources directory.
 
 3. **Community ID Configuration**  
-   The script requires a `community ID` from *Imperial CAD*. If not already set, follow these instructions:
+   The script requires a `community ID` and `API Secret Key` from *Imperial CAD*. If not already set, follow these instructions:
    - Locate your community ID in *Admin Panel > Customization > Community ID*.
    - Add the following line to your `server.cfg` file:
      ```plaintext
      setr imperial_community_id "COMMUNITY_ID_HERE"
+     setr imperialAPI "API_Secret_Key_HERE"
      ```
-   - If your server already uses other *Imperial* scripts with this configuration, you can skip this step.
+   - If your server already uses other *Imperial* scripts with this same configuration, you can skip this step.
 
 4. **Setup Postal Script**  
    The *[Nearest Postal](https://github.com/DevBlocky/nearest-postal/releases)* script must be installed for accurate postals in the 911 dispatches. Ensure the resource name in the `config.lua` under the shared folder matches `"nearest-postal"`. If using a different postal script, adjust accordingly. (!This script will not work without a valid export and function!)
